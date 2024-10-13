@@ -56,7 +56,7 @@
 			// BtnProducts
 			// 
 			BtnProducts.BackgroundImageLayout = ImageLayout.Zoom;
-			BtnProducts.Location = new Point(0, 414);
+			BtnProducts.Location = new Point(0, 415);
 			BtnProducts.Name = "BtnProducts";
 			BtnProducts.Size = new Size(250, 103);
 			BtnProducts.TabIndex = 5;
@@ -65,7 +65,7 @@
 			// BtnProviders
 			// 
 			BtnProviders.BackgroundImageLayout = ImageLayout.Zoom;
-			BtnProviders.Location = new Point(0, 305);
+			BtnProviders.Location = new Point(0, 302);
 			BtnProviders.Name = "BtnProviders";
 			BtnProviders.Size = new Size(250, 103);
 			BtnProviders.TabIndex = 4;
@@ -73,8 +73,9 @@
 			// 
 			// BtnCategories
 			// 
+			BtnCategories.BackgroundImage = supermarket_mvp.Properties.Resources.categories;
 			BtnCategories.BackgroundImageLayout = ImageLayout.Zoom;
-			BtnCategories.Location = new Point(0, 196);
+			BtnCategories.Location = new Point(0, 187);
 			BtnCategories.Name = "BtnCategories";
 			BtnCategories.Size = new Size(250, 103);
 			BtnCategories.TabIndex = 3;
