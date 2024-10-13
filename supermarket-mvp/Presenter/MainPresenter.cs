@@ -34,7 +34,9 @@ namespace Supermarket_mvp.Presenters
 
         private void ShowProvidersView(object? sender, EventArgs e)
         {
-            //
+            IProvidersView view = ProvidersView.GetInstance((MainView)mainView);
+            IProvidersRepository repository = new ProviderRepository(sqlConnectionString);
+            new ProviderPresenter(view, repository);
         }
 
         private void ShowCategorieView(object? sender, EventArgs e)
