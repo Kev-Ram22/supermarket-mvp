@@ -55,6 +55,7 @@
 			// 
 			// BtnProducts
 			// 
+			BtnProducts.BackgroundImage = supermarket_mvp.Properties.Resources.products;
 			BtnProducts.BackgroundImageLayout = ImageLayout.Zoom;
 			BtnProducts.Location = new Point(0, 415);
 			BtnProducts.Name = "BtnProducts";
